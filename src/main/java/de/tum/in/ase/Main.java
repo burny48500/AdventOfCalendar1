@@ -8,10 +8,9 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        File inputFile = new File("/Users/urkocornejo/Library/CloudStorage/OneDrive-TUM/IdeaProjects/" +
-                "Personal/AdventOfCode1/src/main/java/de/tum/in/ase/input.txt");
-        File testFile = new File("/Users/urkocornejo/Library/CloudStorage/OneDrive-TUM/IdeaProjects/" +
-                "Personal/AdventOfCode1/src/main/java/de/tum/in/ase/input.txt");
+        //Change to Absolute Path
+        File inputFile = new File("resources/input.txt");
+        File testFile = new File("resources/test.txt");
 
         Matcher matcher = new Matcher();
         //int total1 = matcher.absFinder(testFile);
