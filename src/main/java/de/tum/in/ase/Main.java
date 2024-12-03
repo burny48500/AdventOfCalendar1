@@ -15,7 +15,7 @@ public class Main {
 
         Matcher matcher = new Matcher();
         //int total1 = matcher.absFinder(testFile);
-        int total2 = matcher.similarityScoreFinder(testFile);
+        int total2 = matcher.similarityScoreFinder(inputFile);
         System.out.println(total2);
     }
 }
